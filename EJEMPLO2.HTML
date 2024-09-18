@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccion por ID</title>
+</head>
+<body>
+    <div id="cajita">
+        Lorem, <span id="texto01"> dolor sit amet consectetur adipisicing elit</span>. Vel cupiditate enim quae excepturi tenetur deleniti nihil, <span id="texto02"> repellat cum itaque accusamus quasi minima</span>, doloremque reprehenderit consectetur. Sunt facere voluptas odio libero.
+
+    </div>
+    <script>
+        let texto=document.getElementById("cajita");
+        texto.style.color="green";
+        texto.style.fontFamily="Verdana";
+        let text1=document.getElementById("texto01");
+        text1.style.fontStyle="italic";
+        text1.style.fontWeight="bold";
+        let text2=document.getElementById("texto02");
+        text2.style.textDecoration="underline";
+        text2.style.backgroundColor="yellow";
+
+    </script>
+
+</body>
+</html>

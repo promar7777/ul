@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Seleccion por clase</title>
+</head>
+<body>
+    <p class="miClase">Los tres tigres tristes trigres tragan trigo</p>
+    <p class="miClase">!Feliz dia del programador! 12 de setiembre</p>
+    <script>
+         let elementos=document.getElementsByClassName("miClase");
+         for (let i=0; i<elementos.length;i++){
+            elementos[i].style.color="green";
+         }
+
+    </script>
+</body>
+</html>
